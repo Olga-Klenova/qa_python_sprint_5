@@ -6,7 +6,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 
 class TestProfileArea:
 
-    def test_transition_to_pesonal_area_from_main_page_success(self, driver, get_login_driver):
+    def test_transition_to_personal_area_from_main_page_success(self, driver, get_login_driver):
 
         driver = get_login_driver
         WebDriverWait(driver, 10).until(EC.visibility_of_element_located(MainPageLocators.personal_account_btn))

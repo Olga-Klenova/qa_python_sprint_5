@@ -3,7 +3,7 @@ from random import randint
 class Person:
     user_name = 'Ольга'
     email = f'olga_klenova_22_777@yandex.ru'
-    password = f'Abc123456'
+    password = f'Abc654321'
 
 class RandomData:
     user_name = 'Тест'

@@ -11,7 +11,7 @@ class TestConstructorPage:
         bun_text = driver.find_element(*MainPageLocators.bun).text                 
         bun_displayed = driver.find_element(*MainPageLocators.bun_ul).is_displayed()
 
-        assert bun_text == 'Булки' and bun_displayed
+        assert bun_text == 'Булка' and bun_displayed
 
 
     def test_transition_to_sauces_success(self, driver):
